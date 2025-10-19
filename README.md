@@ -28,11 +28,11 @@ ShopClone is a lightweight front-end project that mimics the look and feel of a 
 #📁 Folder Structure
 #shopclone
 
--├── index.html
--├── style.css
--├── script.js
--├── /images
--└── README.md
+- ├── index.html
+- ├── style.css
+- ├── script.js
+- ├── /images
+- └── README.md
 
 
 # 🚀 Getting Started
