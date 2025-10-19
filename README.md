@@ -1,5 +1,5 @@
 # 🛍️ Shopify Clone – A Simple Shopify Theme Clone
-Shopify Clone is a lightweight front-end project that mimics the look and feel of a basic Shopify storefront. Built using HTML, CSS, and JavaScript, it showcases a clean layout with featured products, promotional banners, and links to personal projects—perfect for learning and demonstrating e-commerce UI design.
+Shopify Clone is a lightweight front-end project that mimics the look and feel of a basic Shopify storefront. Built using HTML, CSS, and JavaScript, it showcases a clean layout with featured products, promotional banners, and links to personal projects perfect for learning and demonstrating e-commerce UI design.
 
 # 🔍 Features
 - New Arrivals Banner with call-to-action button
