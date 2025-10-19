@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product — Classic Tee</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <button class="mobile-menu-btn" id="mobileMenuBtn2" aria-label="Open menu">☰</button>
+      <a href="index.html" class="brand">ShopClone</a>
+      <nav class="main-nav" id="mainNav2" aria-label="Main navigation">
+        <a href="collection.html">Collections</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="cart.html" class="cart-link">🛒 <span id="cartCount" class="cart-count">0</span></a>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav2">
+      <a href="collection.html">Collections</a>
+      <a href="#">About</a>
+    </div>
+  </header>
+
+  <main class="container section product-page">
+    <div class="product-grid-large">
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <div class="main-image" id="productMainImage">
+          <img src="https://via.placeholder.com/800x800?text=Product+1" alt="Classic Tee">
+        </div>
+        <div class="thumbnails" id="productThumbs">
+          <button class="thumb active" data-src="https://via.placeholder.com/800x800?text=Product+1" aria-label="Image 1">
+            <img src="https://via.placeholder.com/120x120?text=1" alt="1">
+          </button>
+          <button class="thumb" data-src="https://via.placeholder.com/800x800?text=Product+1+Alt" aria-label="Image 2">
+            <img src="https://via.placeholder.com/120x120?text=2" alt="2">
+          </button>
+          <button class="thumb" data-src="https://via.placeholder.com/800x800?text=Product+1+Alt+2" aria-label="Image 3">
+            <img src="https://via.placeholder.com/120x120?text=3" alt="3">
+          </button>
+        </div>
+      </div>
+
+      <!-- Product Info -->
+      <div class="product-details">
+        <h1 id="productTitle">Classic Tee</h1>
+        <p class="sku">SKU: CL-TEE-01</p>
+        <div class="price" id="productPrice">₹24.00</div>
+
+        <p class="product-description">
+          A minimalist classic tee — comfortable, breathable and perfect for everyday wear.
+        </p>
+
+        <form class="product-form" id="productForm">
+          <label for="quantity">Quantity</label>
+          <div class="qty-wrap">
+            <button type="button" class="qty-btn" id="qtyMinus">−</button>
+            <input id="quantity" name="quantity" min="1" value="1" type="number" />
+            <button type="button" class="qty-btn" id="qtyPlus">+</button>
+          </div>
+
+          <button class="btn add-to-cart" type="submit" data-id="1" data-title="Classic Tee" data-price="24.00" data-image="https://via.placeholder.com/420x420?text=Product+1">
+            Add to cart
+          </button>
+        </form>
+
+        <div class="meta">
+          <p><strong>Material:</strong> Cotton</p>
+          <p><strong>Delivery:</strong> 3-5 business days</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>ShopClone</h4>
+        <p>Simple store — built with HTML, CSS & JS</p>
+      </div>
+      <div>
+        <h5>Links</h5>
+        <a href="collection.html">Collections</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

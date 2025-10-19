@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Collection — All Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <button class="mobile-menu-btn" id="mobileMenuBtn3" aria-label="Open menu">☰</button>
+      <a href="index.html" class="brand">ShopClone</a>
+      <nav class="main-nav" id="mainNav3" aria-label="Main navigation">
+        <a href="collection.html">Collections</a>
+        <a href="#">About</a>
+      </nav>
+      <div class="header-actions">
+        <a href="cart.html" class="cart-link">🛒 <span id="cartCount" class="cart-count">0</span></a>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav3">
+      <a href="collection.html">Collections</a>
+      <a href="#">About</a>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">All Products</h1>
+
+    <div class="product-grid" id="collectionGrid">
+      <!-- Copy same product cards as index or duplicate -->
+      <article class="product-card" data-id="1" data-title="Classic Tee" data-price="24.00" data-image="https://via.placeholder.com/420x420?text=Product+1">
+        <a class="product-link" href="product.html?id=1">
+          <div class="product-media">
+            <img src="https://via.placeholder.com/420x420?text=Product+1" alt="Classic Tee">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Classic Tee</h3>
+            <div class="product-price">₹24.00</div>
+          </div>
+        </a>
+        <button class="add-to-cart small" data-id="1" data-title="Classic Tee" data-price="24.00" data-image="https://via.placeholder.com/420x420?text=Product+1">Add to cart</button>
+      </article>
+
+      <article class="product-card" data-id="2" data-title="Everyday Hoodie" data-price="48.00" data-image="https://via.placeholder.com/420x420?text=Product+2">
+        <a class="product-link" href="product.html?id=2">
+          <div class="product-media">
+            <img src="https://via.placeholder.com/420x420?text=Product+2" alt="Everyday Hoodie">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Everyday Hoodie</h3>
+            <div class="product-price">₹48.00</div>
+          </div>
+        </a>
+        <button class="add-to-cart small" data-id="2" data-title="Everyday Hoodie" data-price="48.00" data-image="https://via.placeholder.com/420x420?text=Product+2">Add to cart</button>
+      </article>
+
+      <article class="product-card" data-id="3" data-title="Slim Jeans" data-price="59.00" data-image="https://via.placeholder.com/420x420?text=Product+3">
+        <a class="product-link" href="product.html?id=3">
+          <div class="product-media">
+            <img src="https://via.placeholder.com/420x420?text=Product+3" alt="Slim Jeans">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Slim Jeans</h3>
+            <div class="product-price">₹59.00</div>
+          </div>
+        </a>
+        <button class="add-to-cart small" data-id="3" data-title="Slim Jeans" data-price="59.00" data-image="https://via.placeholder.com/420x420?text=Product+3">Add to cart</button>
+      </article>
+
+      <article class="product-card" data-id="4" data-title="Leather Belt" data-price="19.00" data-image="https://via.placeholder.com/420x420?text=Product+4">
+        <a class="product-link" href="product.html?id=4">
+          <div class="product-media">
+            <img src="https://via.placeholder.com/420x420?text=Product+4" alt="Leather Belt">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Leather Belt</h3>
+            <div class="product-price">₹19.00</div>
+          </div>
+        </a>
+        <button class="add-to-cart small" data-id="4" data-title="Leather Belt" data-price="19.00" data-image="https://via.placeholder.com/420x420?text=Product+4">Add to cart</button>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>ShopClone</h4>
+        <p>Simple store — built with HTML, CSS & JS</p>
+      </div>
+      <div>
+        <h5>Links</h5>
+        <a href="index.html">Home</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <button class="mobile-menu-btn" id="mobileMenuBtn4" aria-label="Open menu">☰</button>
+      <a href="index.html" class="brand">ShopClone</a>
+      <nav class="main-nav" id="mainNav4" aria-label="Main navigation">
+        <a href="collection.html">Collections</a>
+        <a href="#">About</a>
+      </nav>
+      <div class="header-actions">
+        <a href="cart.html" class="cart-link">🛒 <span id="cartCount" class="cart-count">0</span></a>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav4">
+      <a href="collection.html">Collections</a>
+      <a href="#">About</a>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">Shopping Cart</h1>
+
+    <div id="cartContainer" class="cart-container">
+      <!-- JS will populate cart items here -->
+      <p class="muted">Your cart is empty.</p>
+    </div>
+
+    <div class="cart-actions" id="cartActions" style="display:none;">
+      <div class="totals">
+        <div>Subtotal <span id="cartSubtotal">₹0.00</span></div>
+      </div>
+      <div>
+        <button class="btn" id="checkoutBtn">Proceed to Checkout</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>ShopClone</h4>
+        <p>Simple store — built with HTML, CSS & JS</p>
+      </div>
+      <div>
+        <h5>Links</h5>
+        <a href="index.html">Home</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
