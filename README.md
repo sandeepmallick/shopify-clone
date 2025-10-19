@@ -7,6 +7,7 @@ Shopify Clone is a lightweight front-end project that mimics the look and feel o
 - Free Shipping Promo banner
 - GitHub Portfolio Link for showcasing developer projects
 - Responsive Footer with project info and contact details
+  
 # 📦 Tech Stack
 - HTML5
 - CSS3
