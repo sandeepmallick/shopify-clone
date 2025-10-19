@@ -72,6 +72,7 @@ a{text-decoration:none;color:inherit}
 .newsletter{background:var(--card);padding:18px;border-radius:10px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px;border:1px solid #e5e5e5}
 .newsletter form{display:flex;gap:8px}
 .newsletter input{flex:1;padding:10px;border-radius:8px;border:1px solid #e5e5e5;color:#000}
+.newsletter{align-items: center;}
 
 /* Footer */
 .site-footer{margin-top:40px;padding:30px 0;background:#fff;border-top:1px solid #e5e5e5}
