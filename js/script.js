@@ -1,5 +1,4 @@
-/* Simple frontend store behavior: mobile menu, hero slider, product gallery,
-   add-to-cart (localStorage), cart page rendering, sticky header, animation */
+
 
 // Utilities
 const qs = (s, el=document) => el.querySelector(s);
@@ -169,7 +168,7 @@ function showToast(msg, time=2000){
     toast.style.position = 'fixed';
     toast.style.right = '16px';
     toast.style.bottom = '16px';
-    toast.style.background = 'rgba(17,24,39,0.95)';
+    toast.style.background = 'rgba(11, 11, 11, 0.95)';
     toast.style.color = '#fff';
     toast.style.padding = '10px 14px';
     toast.style.borderRadius = '10px';
@@ -273,10 +272,10 @@ qs('#newsletterForm')?.addEventListener('submit', (e)=>{
   if(!id) return;
   // In demo we map id to example data
   const products = {
-    '1': { title:'Classic Tee', price:24.00, image:'https://via.placeholder.com/420x420?text=Product+1', desc:'A minimalist classic tee.' },
-    '2': { title:'Everyday Hoodie', price:48.00, image:'https://via.placeholder.com/420x420?text=Product+2', desc:'Comfortable hoodie for everyday use.' },
-    '3': { title:'Slim Jeans', price:59.00, image:'https://via.placeholder.com/420x420?text=Product+3', desc:'Slim fit jeans.' },
-    '4': { title:'Leather Belt', price:19.00, image:'https://via.placeholder.com/420x420?text=Product+4', desc:'Genuine leather belt.' }
+    '1': { title:'Lycra Saree', price:824.00, image:'image/YUGAVEERAA-Lycra-Solid-Regular-Saree-SDL527086690-1-666db.webp', desc:'Lycra Saree.' },
+    '2': { title:'Everyday Hoodie', price:948.00, image:'image/m-ausk9420-ausk-original-imahg7xfhhfxcqyq.webp', desc:'Comfortable hoodie for everyday use.' },
+    '3': { title:'Slim Jeans', price:1119.00, image:'image/-original-imaheybp3fxmf6zz.webp', desc:'Slim fit jeans.' },
+    '4': { title:'Leather Belt', price:709.00, image:'image/38-mdl-leath-6-bl-sty-leath-6-bl-genuine-leather-belt-for-men-s-original-imahgf7jkmu5bg29.webp', desc:'Genuine leather belt.' }
   };
   const p = products[id];
   if(!p) return;
