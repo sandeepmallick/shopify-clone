@@ -37,3 +37,6 @@ To run the project locally: https://sandeepmallick.github.io/shopify-clone/
 - GitHub: ZTEX
 - Email: sandeepmallick7254@gmail.com
 
+# preview
+https://github.com/sandeepmallick/shopify-clone/issues/1#issue-3530123274
+
