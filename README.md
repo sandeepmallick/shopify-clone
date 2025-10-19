@@ -25,7 +25,7 @@ ShopClone is a lightweight front-end project that mimics the look and feel of a 
 - CSS3
 - JavaScript (Vanilla)
 
-# 📁 Folder Structure
+📁 Folder Structure
 /shopclone
 │
 ├── index.html
