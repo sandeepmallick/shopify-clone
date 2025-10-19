@@ -20,11 +20,11 @@ shopclone
 - ├── product.html
 - ├── collection.html 
 - └── css
--      ├── style.css
+-    ├── style.css
 - └── js
- -      ├── script.js
+ -   ├── script.js
 - └── image
--       ├── all images 
+-    ├── all images 
 - └── README.md
 
 
